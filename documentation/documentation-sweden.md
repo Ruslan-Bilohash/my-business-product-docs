@@ -1,0 +1,91 @@
+# My Business Product
+
+**Driv hela verksamheten från en enda panel.**
+
+En självhostad Laravel 13 + Filament 3.3-adminpanel för produktkataloger, lager i flera lager, fakturering med riktigt fungerande betalningslösningar, och marknadsförings-/marknadsplatskopplingar för Google, Meta, Amazon, eBay med flera. Ett köp, installera på din egen server, äg det för alltid — inget om din katalog, dina kunder eller API-nycklar går någonsin genom en tredjepartsserver.
+
+**Version 1.21.0** · Adminpanel, nätbutik och dokumentation tillgängliga på 12 språk: engelska, ukrainska, norska, svenska, litauiska, tyska, spanska, portugisiska, franska, polska, italienska och turkiska.
+
+---
+
+## Vad som ingår
+
+| Modul | Vad den gör |
+|---|---|
+| **Katalog och varianter** | Produkter, varianter, kategorier, streckkoder, huvudbild + omorganiserbara galleribilder, valfria dokument (datablad, ritningar, specifikationer). Varje uppladdad bild konverteras automatiskt till WebP. Bulk-CSV-import/export, plus riktig produktimport från Shopify, WooCommerce, Amazon och eBay — en knapp, välj källa |
+| **Streckkodsskanning** | Produktsökning hittar artiklar via skannad streckkod/SKU direkt; följesedels- och orderrader har en «Skanna streckkod»-knapp för USB-/Bluetooth-läsare |
+| **Lager i flera lager** | Antal spåras per lager, inkommande/utgående/överföringsföljesedlar, varje rörelse loggas automatiskt |
+| **Fakturor och betalningar** | Varumärkta fakturor med en tokenbaserad offentlig betalningssida och nedladdningsbar PDF — 8 aktiva betalningslösningar (Stripe, PayPal, LiqPay, Fondy, WayForPay, Vipps MobilePay, Paysera, Revolut), verifierade server-side via signerade webhooks |
+| **Marknadsföring och marknadsplatser** | Live katalogsynkronisering till Google Shopping och Meta Catalog; annonsresultat från Google, Meta och TikTok Ads; anslutningar för Amazon, eBay, Rozetka, Shopify, WooCommerce, PrestaShop och Wix |
+| **Inbyggd SEO** | Riktig meta description, Open Graph, Twitter Card och Schema.org JSON-LD-utdata på nätbutiken — inte bara inställningsfält. Live `/sitemap.xml` och `/robots.txt` |
+| **AI-assistent** | Använd din egen Anthropic-, OpenAI- eller xAI-nyckel — «Generera med AI» för produktbeskrivningar/SEO-text, plus en valfri, tillståndslös AI-chattwidget på nätbutiken med en systemprompt du själv skriver |
+| **E-post, SMS och Telegram** | Riktade kampanjer per prisgrupp, plus varningar om lågt lager som skickas till din egen Telegram-bot |
+| **Rollbaserad säkerhet** | Tvåfaktorsinloggning (TOTP, lokalt genererad QR-kod och återställningskoder), sex inbyggda roller med behörigheter som gäller i varje modul, full aktivitetsinsyn |
+| **Server & säkerhet-sida** | Miljöinformation, en live säkerhetschecklista, en localhost-only portkontroll, samt ettklicks felsökningsläges-växling + cache-rensning — ingen SSH eller artisan-åtkomst behövs |
+| **Floodskydd** | Hastighetsbegränsning på varje offentlig rutt; stöd för `TRUSTED_PROXIES` så att det fortsätter fungera korrekt bakom Cloudflare eller en annan CDN/WAF |
+
+En offentlig, kundvänd **nätbutik** medföljer också — separat från adminpanelen, med sökning, filter, kundvagn, kassa, ett produktbildgalleri och en valfri AI-chattwidget.
+
+---
+
+## Skärmbilder
+
+### Instrumentpanel
+![Instrumentpanel](../public/images/tour/dashboard.webp)
+
+### Produkter
+![Produkter](../public/images/tour/products.webp)
+
+### Fakturor
+![Fakturor](../public/images/tour/invoices.webp)
+
+### Ordrar
+![Ordrar](../public/images/tour/orders.webp)
+
+### Offentlig nätbutik
+![Nätbutik](../public/images/storefront-preview.webp)
+
+### Marknadsföring och annonser
+![Marknadsföring](../public/images/features/feature-marketing.webp)
+
+### Marknadsplatser
+![Marknadsplatser](../public/images/features/doc-marketplaces.webp)
+
+### Aviseringar
+![Aviseringar](../public/images/features/doc-notifications.webp)
+
+### Användare och roller
+![Användare](../public/images/features/feature-security.webp)
+
+### Server & säkerhet
+![Server & säkerhet](../public/images/tour/server-security.webp)
+
+### Inloggning
+![Inloggning](../public/images/screenshot-login.webp)
+
+---
+
+## Teknik
+
+- **Laravel** 13
+- **Filament** 3.3 (adminpanel)
+- **PHP** 8.3+
+- **MySQL** 8+
+- Vanlig Blade för nätbutiken — inget byggsteg krävs
+
+## Installation
+
+En webbaserad installationsguide (`/install`) hanterar kravkontroller, databasinställning, migreringar, en valfri exempeldata-seed, det första adminkontot och företagsuppgifter — på 12 språk, och fungerar oavsett om appen ligger i domänens rot eller i valfri underkatalog, på Apache, LiteSpeed eller nginx. Se `README.txt` och `public/documentation.html` för fullständiga installationsinstruktioner, eller kör det manuellt:
+
+```bash
+composer install --no-dev --optimize-autoloader
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --force
+php artisan db:seed --class=DatabaseSeeder --force
+php artisan storage:link
+```
+
+## Licens
+
+Privat/kommersiell — se `LICENSE.txt`. Detta repository är inte en offentlig open source-distribution.
