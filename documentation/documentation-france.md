@@ -4,7 +4,7 @@
 
 Un panneau d'administration auto-hébergé Laravel 13 + Filament 3.3 pour les catalogues de produits, l'inventaire multi-entrepôts, la facturation avec des passerelles de paiement réellement fonctionnelles, et des connexions marketing/marketplaces pour Google, Meta, Amazon, eBay et plus encore. Un seul achat, installez-le sur votre propre serveur, possédez-le pour toujours — rien concernant votre catalogue, vos clients ou vos clés API ne transite jamais par un serveur tiers.
 
-**Version 1.21.0** · Panneau d'administration, boutique et documentation disponibles en 12 langues : anglais, ukrainien, norvégien, suédois, lituanien, allemand, espagnol, portugais, français, polonais, italien et turc.
+**Version 1.32.1** · Panneau d'administration, boutique et documentation disponibles en 14 langues : anglais, ukrainien, norvégien, suédois, lituanien, allemand, espagnol, portugais, portugais brésilien, français, polonais, italien, turc, néerlandais et indonésien.
 
 ---
 

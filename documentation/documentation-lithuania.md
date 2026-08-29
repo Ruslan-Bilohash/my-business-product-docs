@@ -4,7 +4,7 @@
 
 Savarankiškai talpinamas Laravel 13 + Filament 3.3 administravimo skydelis produktų katalogui, daugiasandėliniam sandėliavimui, sąskaitų išrašymui su realiai veikiančiais mokėjimo šliuzais bei rinkodaros / prekyviečių prijungimais Google, Meta, Amazon, eBay ir kitiems. Vienas pirkinys, diegiate savo serveryje, valdote amžinai — jokie duomenys apie jūsų katalogą, klientus ar API raktus niekada nepraeina per trečiosios šalies serverį.
 
-**Versija 1.21.0** · Administravimo skydelis, vitrina ir dokumentacija pasiekiami 12 kalbų: anglų, ukrainiečių, norvegų, švedų, lietuvių, vokiečių, ispanų, portugalų, prancūzų, lenkų, italų ir turkų.
+**Versija 1.32.1** · Administravimo skydelis, vitrina ir dokumentacija pasiekiami 14 kalbų: anglų, ukrainiečių, norvegų, švedų, lietuvių, vokiečių, ispanų, portugalų, Brazilijos portugalų, prancūzų, lenkų, italų, turkų, olandų ir indoneziečių.
 
 ---
 

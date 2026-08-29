@@ -4,7 +4,7 @@
 
 Ürün katalogları, çok depolu envanter, gerçekten çalışan ödeme ağ geçitleriyle faturalandırma ve Google, Meta, Amazon, eBay ve daha fazlası için pazarlama/pazar yeri bağlantıları sunan, kendi sunucunuzda barındırılan bir Laravel 13 + Filament 3.3 yönetim paneli. Tek satın alma, kendi sunucunuza kurun, sonsuza kadar sizin olsun — kataloğunuz, müşterileriniz veya API anahtarlarınızla ilgili hiçbir şey asla üçüncü taraf bir sunucudan geçmez.
 
-**Sürüm 1.21.0** · Yönetim paneli, vitrin ve dokümantasyon 12 dilde mevcuttur: İngilizce, Ukraynaca, Norveççe, İsveççe, Litvanyaca, Almanca, İspanyolca, Portekizce, Fransızca, Lehçe, İtalyanca ve Türkçe.
+**Sürüm 1.32.1** · Yönetim paneli, vitrin ve dokümantasyon 14 dilde mevcuttur: İngilizce, Ukraynaca, Norveççe, İsveççe, Litvanyaca, Almanca, İspanyolca, Portekizce, Brezilya Portekizcesi, Fransızca, Lehçe, İtalyanca, Türkçe, Felemenkçe ve Endonezce.
 
 ---
 

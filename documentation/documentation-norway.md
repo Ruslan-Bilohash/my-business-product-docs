@@ -4,7 +4,7 @@
 
 Et selvhostet Laravel 13 + Filament 3.3-adminpanel for produktkataloger, lager på tvers av flere lagre, fakturering med ekte fungerende betalingsløsninger, og markedsførings-/markedsplasstilkoblinger for Google, Meta, Amazon, eBay og mer. Ett kjøp, installer det på din egen server, eie det for alltid — ingenting om katalogen, kundene eller API-nøklene dine går noensinne gjennom en tredjepartsserver.
 
-**Versjon 1.21.0** · Admin-panel, nettbutikk og dokumentasjon tilgjengelig på 12 språk: engelsk, ukrainsk, norsk, svensk, litauisk, tysk, spansk, portugisisk, fransk, polsk, italiensk og tyrkisk.
+**Versjon 1.32.1** · Admin-panel, nettbutikk og dokumentasjon tilgjengelig på 14 språk: engelsk, ukrainsk, norsk, svensk, litauisk, tysk, spansk, portugisisk, brasiliansk portugisisk, fransk, polsk, italiensk, tyrkisk, nederlandsk og indonesisk.
 
 ---
 

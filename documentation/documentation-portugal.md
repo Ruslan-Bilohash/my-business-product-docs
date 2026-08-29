@@ -4,7 +4,7 @@
 
 Um painel de administração autoalojado em Laravel 13 + Filament 3.3 para catálogos de produtos, inventário multi-armazém, faturação com gateways de pagamento verdadeiramente funcionais, e ligações de marketing/marketplaces para Google, Meta, Amazon, eBay e mais. Uma compra, instala no seu próprio servidor, é seu para sempre — nada sobre o seu catálogo, clientes ou chaves de API passa alguma vez por um servidor de terceiros.
 
-**Versão 1.21.0** · Painel de administração, loja pública e documentação disponíveis em 12 idiomas: inglês, ucraniano, norueguês, sueco, lituano, alemão, espanhol, português, francês, polaco, italiano e turco.
+**Versão 1.32.1** · Painel de administração, loja pública e documentação disponíveis em 14 idiomas: inglês, ucraniano, norueguês, sueco, lituano, alemão, espanhol, português, português do Brasil, francês, polaco, italiano, turco, neerlandês e indonésio.
 
 ---
 

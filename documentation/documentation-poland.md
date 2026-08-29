@@ -4,7 +4,7 @@
 
 Samodzielnie hostowany panel administracyjny Laravel 13 + Filament 3.3 do katalogów produktów, wielomagazynowego zarządzania stanem, fakturowania z naprawdę działającymi bramkami płatności oraz połączeń marketingowych/rynkowych z Google, Meta, Amazon, eBay i innymi. Jeden zakup, instalujesz na własnym serwerze, posiadasz na zawsze — żadne dane o Twoim katalogu, klientach czy kluczach API nigdy nie przechodzą przez serwer strony trzeciej.
 
-**Wersja 1.21.0** · Panel administracyjny, witryna i dokumentacja dostępne w 12 językach: angielskim, ukraińskim, norweskim, szwedzkim, litewskim, niemieckim, hiszpańskim, portugalskim, francuskim, polskim, włoskim i tureckim.
+**Wersja 1.32.1** · Panel administracyjny, witryna i dokumentacja dostępne w 14 językach: angielskim, ukraińskim, norweskim, szwedzkim, litewskim, niemieckim, hiszpańskim, portugalskim, brazylijskim portugalskim, francuskim, polskim, włoskim, tureckim, niderlandzkim i indonezyjskim.
 
 ---
 
