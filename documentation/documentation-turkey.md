@@ -4,7 +4,7 @@
 
 Ürün katalogları, çok depolu envanter, gerçekten çalışan ödeme ağ geçitleriyle faturalandırma ve Google, Meta, Amazon, eBay ve daha fazlası için pazarlama/pazar yeri bağlantıları sunan, kendi sunucunuzda barındırılan bir Laravel 13 + Filament 3.3 yönetim paneli. Tek satın alma, kendi sunucunuza kurun, sonsuza kadar sizin olsun — kataloğunuz, müşterileriniz veya API anahtarlarınızla ilgili hiçbir şey asla üçüncü taraf bir sunucudan geçmez.
 
-**Sürüm 1.32.1** · Yönetim paneli, vitrin ve dokümantasyon 14 dilde mevcuttur: İngilizce, Ukraynaca, Norveççe, İsveççe, Litvanyaca, Almanca, İspanyolca, Portekizce, Brezilya Portekizcesi, Fransızca, Lehçe, İtalyanca, Türkçe, Felemenkçe ve Endonezce.
+**Sürüm 1.32.4** · Yönetim paneli, vitrin ve dokümantasyon 14 dilde mevcuttur: İngilizce, Ukraynaca, Norveççe, İsveççe, Litvanyaca, Almanca, İspanyolca, Portekizce, Brezilya Portekizcesi, Fransızca, Lehçe, İtalyanca, Türkçe, Felemenkçe ve Endonezce.
 
 ---
 
@@ -75,7 +75,7 @@ Genel, müşteriye yönelik bir **vitrin** de kutunun içinde gelir — yönetim
 
 ## Kurulum
 
-Web tabanlı bir kurulum sihirbazı (`/install`) gereksinim kontrollerini, veritabanı kurulumunu, migrasyonları, isteğe bağlı bir demo veri tohumlamayı, ilk yönetici hesabını ve şirket bilgilerini yönetir — 12 dilde, ve uygulama alan adı kökünde ya da herhangi bir alt klasörde olsun, Apache, LiteSpeed veya nginx üzerinde çalışır. Tam kurulum talimatları için `README.txt` ve `public/documentation.html` dosyalarına bakın veya manuel olarak çalıştırın:
+Web tabanlı bir kurulum sihirbazı (`/install`) gereksinim kontrollerini, veritabanı kurulumunu, migrasyonları, isteğe bağlı bir demo veri tohumlamayı, ilk yönetici hesabını ve şirket bilgilerini yönetir — 14 dilde, ve uygulama alan adı kökünde ya da herhangi bir alt klasörde olsun, Apache, LiteSpeed veya nginx üzerinde çalışır. Tam kurulum talimatları için `README.txt` ve `public/documentation.html` dosyalarına bakın veya manuel olarak çalıştırın:
 
 ```bash
 composer install --no-dev --optimize-autoloader

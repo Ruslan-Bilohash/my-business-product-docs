@@ -4,7 +4,7 @@
 
 Samodzielnie hostowany panel administracyjny Laravel 13 + Filament 3.3 do katalogów produktów, wielomagazynowego zarządzania stanem, fakturowania z naprawdę działającymi bramkami płatności oraz połączeń marketingowych/rynkowych z Google, Meta, Amazon, eBay i innymi. Jeden zakup, instalujesz na własnym serwerze, posiadasz na zawsze — żadne dane o Twoim katalogu, klientach czy kluczach API nigdy nie przechodzą przez serwer strony trzeciej.
 
-**Wersja 1.32.1** · Panel administracyjny, witryna i dokumentacja dostępne w 14 językach: angielskim, ukraińskim, norweskim, szwedzkim, litewskim, niemieckim, hiszpańskim, portugalskim, brazylijskim portugalskim, francuskim, polskim, włoskim, tureckim, niderlandzkim i indonezyjskim.
+**Wersja 1.32.4** · Panel administracyjny, witryna i dokumentacja dostępne w 14 językach: angielskim, ukraińskim, norweskim, szwedzkim, litewskim, niemieckim, hiszpańskim, portugalskim, brazylijskim portugalskim, francuskim, polskim, włoskim, tureckim, niderlandzkim i indonezyjskim.
 
 ---
 
@@ -75,7 +75,7 @@ W zestawie znajduje się także publiczna **witryna** skierowana do klientów �
 
 ## Instalacja
 
-Internetowy kreator instalacji (`/install`) obsługuje sprawdzanie wymagań, konfigurację bazy danych, migracje, opcjonalne zasilenie danymi demonstracyjnymi, pierwsze konto administratora i dane firmy — w 12 językach, i działa niezależnie od tego, czy aplikacja znajduje się w katalogu głównym domeny, czy w dowolnym podkatalogu, na Apache, LiteSpeed lub nginx. Zobacz `README.txt` i `public/documentation.html`, aby uzyskać pełne instrukcje konfiguracji, lub zainstaluj ręcznie:
+Internetowy kreator instalacji (`/install`) obsługuje sprawdzanie wymagań, konfigurację bazy danych, migracje, opcjonalne zasilenie danymi demonstracyjnymi, pierwsze konto administratora i dane firmy — w 14 językach, i działa niezależnie od tego, czy aplikacja znajduje się w katalogu głównym domeny, czy w dowolnym podkatalogu, na Apache, LiteSpeed lub nginx. Zobacz `README.txt` i `public/documentation.html`, aby uzyskać pełne instrukcje konfiguracji, lub zainstaluj ręcznie:
 
 ```bash
 composer install --no-dev --optimize-autoloader

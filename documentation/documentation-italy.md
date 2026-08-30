@@ -4,7 +4,7 @@
 
 Un pannello di amministrazione autogestito Laravel 13 + Filament 3.3 per cataloghi di prodotti, inventario multi-magazzino, fatturazione con gateway di pagamento realmente funzionanti, e connessioni di marketing/marketplace per Google, Meta, Amazon, eBay e altro ancora. Un solo acquisto, lo installi sul tuo server, lo possiedi per sempre — nulla del tuo catalogo, dei tuoi clienti o delle tue chiavi API passa mai attraverso un server di terze parti.
 
-**Versione 1.32.1** · Pannello di amministrazione, storefront e documentazione disponibili in 14 lingue: inglese, ucraino, norvegese, svedese, lituano, tedesco, spagnolo, portoghese, portoghese brasiliano, francese, polacco, italiano, turco, olandese e indonesiano.
+**Versione 1.32.4** · Pannello di amministrazione, storefront e documentazione disponibili in 14 lingue: inglese, ucraino, norvegese, svedese, lituano, tedesco, spagnolo, portoghese, portoghese brasiliano, francese, polacco, italiano, turco, olandese e indonesiano.
 
 ---
 
@@ -75,7 +75,7 @@ Un pannello di amministrazione autogestito Laravel 13 + Filament 3.3 per catalog
 
 ## Installazione
 
-Una procedura guidata di installazione web (`/install`) gestisce i controlli dei requisiti, la configurazione del database, le migrazioni, un seeding opzionale di dati dimostrativi, il primo account amministratore e i dati aziendali — in 12 lingue, e funziona sia che l'app risieda nella root del dominio sia in qualsiasi sottocartella, su Apache, LiteSpeed o nginx. Consulta `README.txt` e `public/documentation.html` per le istruzioni complete di configurazione, oppure eseguila manualmente:
+Una procedura guidata di installazione web (`/install`) gestisce i controlli dei requisiti, la configurazione del database, le migrazioni, un seeding opzionale di dati dimostrativi, il primo account amministratore e i dati aziendali — in 14 lingue, e funziona sia che l'app risieda nella root del dominio sia in qualsiasi sottocartella, su Apache, LiteSpeed o nginx. Consulta `README.txt` e `public/documentation.html` per le istruzioni complete di configurazione, oppure eseguila manualmente:
 
 ```bash
 composer install --no-dev --optimize-autoloader

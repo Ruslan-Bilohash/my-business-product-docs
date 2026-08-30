@@ -4,7 +4,7 @@
 
 Savarankiškai talpinamas Laravel 13 + Filament 3.3 administravimo skydelis produktų katalogui, daugiasandėliniam sandėliavimui, sąskaitų išrašymui su realiai veikiančiais mokėjimo šliuzais bei rinkodaros / prekyviečių prijungimais Google, Meta, Amazon, eBay ir kitiems. Vienas pirkinys, diegiate savo serveryje, valdote amžinai — jokie duomenys apie jūsų katalogą, klientus ar API raktus niekada nepraeina per trečiosios šalies serverį.
 
-**Versija 1.32.1** · Administravimo skydelis, vitrina ir dokumentacija pasiekiami 14 kalbų: anglų, ukrainiečių, norvegų, švedų, lietuvių, vokiečių, ispanų, portugalų, Brazilijos portugalų, prancūzų, lenkų, italų, turkų, olandų ir indoneziečių.
+**Versija 1.32.4** · Administravimo skydelis, vitrina ir dokumentacija pasiekiami 14 kalbų: anglų, ukrainiečių, norvegų, švedų, lietuvių, vokiečių, ispanų, portugalų, Brazilijos portugalų, prancūzų, lenkų, italų, turkų, olandų ir indoneziečių.
 
 ---
 
@@ -75,7 +75,7 @@ Savarankiškai talpinamas Laravel 13 + Filament 3.3 administravimo skydelis prod
 
 ## Diegimas
 
-Žiniatinklio diegimo vediklis (`/install`) atlieka reikalavimų patikrą, duomenų bazės nustatymą, migracijas, neprivalomą demonstracinių duomenų užpildymą, pirmosios administratoriaus paskyros ir įmonės duomenų sukūrimą — 12 kalbų, ir veikia nepriklausomai nuo to, ar programa yra domeno šaknyje, ar bet kuriame pakataloge, Apache, LiteSpeed ar nginx serveryje. Žr. `README.txt` ir `public/documentation.html` išsamias diegimo instrukcijas arba diekite rankiniu būdu:
+Žiniatinklio diegimo vediklis (`/install`) atlieka reikalavimų patikrą, duomenų bazės nustatymą, migracijas, neprivalomą demonstracinių duomenų užpildymą, pirmosios administratoriaus paskyros ir įmonės duomenų sukūrimą — 14 kalbų, ir veikia nepriklausomai nuo to, ar programa yra domeno šaknyje, ar bet kuriame pakataloge, Apache, LiteSpeed ar nginx serveryje. Žr. `README.txt` ir `public/documentation.html` išsamias diegimo instrukcijas arba diekite rankiniu būdu:
 
 ```bash
 composer install --no-dev --optimize-autoloader

@@ -4,7 +4,7 @@
 
 A self-hosted Laravel 13 + Filament 3.3 admin panel for product catalogs, multi-warehouse inventory, invoicing with real working payment gateways, and marketing/marketplace connections for Google, Meta, Amazon, eBay and more. One purchase, install it on your own server, own it forever — nothing about your catalog, customers or API keys ever passes through a third-party server.
 
-**Version 1.32.1** · Admin panel, storefront and documentation available in 14 languages: English, Ukrainian, Norwegian, Swedish, Lithuanian, German, Spanish, Portuguese, Brazilian Portuguese, French, Polish, Italian, Turkish, Dutch and Indonesian.
+**Version 1.32.4** · Admin panel, storefront and documentation available in 14 languages: English, Ukrainian, Norwegian, Swedish, Lithuanian, German, Spanish, Portuguese, Brazilian Portuguese, French, Polish, Italian, Turkish, Dutch and Indonesian.
 
 ---
 

@@ -4,7 +4,7 @@
 
 Um painel de administração autoalojado em Laravel 13 + Filament 3.3 para catálogos de produtos, inventário multi-armazém, faturação com gateways de pagamento verdadeiramente funcionais, e ligações de marketing/marketplaces para Google, Meta, Amazon, eBay e mais. Uma compra, instala no seu próprio servidor, é seu para sempre — nada sobre o seu catálogo, clientes ou chaves de API passa alguma vez por um servidor de terceiros.
 
-**Versão 1.32.1** · Painel de administração, loja pública e documentação disponíveis em 14 idiomas: inglês, ucraniano, norueguês, sueco, lituano, alemão, espanhol, português, português do Brasil, francês, polaco, italiano, turco, neerlandês e indonésio.
+**Versão 1.32.4** · Painel de administração, loja pública e documentação disponíveis em 14 idiomas: inglês, ucraniano, norueguês, sueco, lituano, alemão, espanhol, português, português do Brasil, francês, polaco, italiano, turco, neerlandês e indonésio.
 
 ---
 
@@ -75,7 +75,7 @@ Uma **loja** pública voltada para o cliente também está incluída — separad
 
 ## Instalação
 
-Um assistente de instalação baseado na web (`/install`) trata das verificações de requisitos, configuração da base de dados, migrações, uma semente opcional de dados de demonstração, a primeira conta de administrador e dados da empresa — em 12 idiomas, e funciona quer a aplicação esteja na raiz do domínio ou em qualquer subpasta, em Apache, LiteSpeed ou nginx. Consulte `README.txt` e `public/documentation.html` para instruções completas de configuração, ou execute-o manualmente:
+Um assistente de instalação baseado na web (`/install`) trata das verificações de requisitos, configuração da base de dados, migrações, uma semente opcional de dados de demonstração, a primeira conta de administrador e dados da empresa — em 14 idiomas, e funciona quer a aplicação esteja na raiz do domínio ou em qualquer subpasta, em Apache, LiteSpeed ou nginx. Consulte `README.txt` e `public/documentation.html` para instruções completas de configuração, ou execute-o manualmente:
 
 ```bash
 composer install --no-dev --optimize-autoloader

@@ -4,7 +4,7 @@
 
 Un panneau d'administration auto-hébergé Laravel 13 + Filament 3.3 pour les catalogues de produits, l'inventaire multi-entrepôts, la facturation avec des passerelles de paiement réellement fonctionnelles, et des connexions marketing/marketplaces pour Google, Meta, Amazon, eBay et plus encore. Un seul achat, installez-le sur votre propre serveur, possédez-le pour toujours — rien concernant votre catalogue, vos clients ou vos clés API ne transite jamais par un serveur tiers.
 
-**Version 1.32.1** · Panneau d'administration, boutique et documentation disponibles en 14 langues : anglais, ukrainien, norvégien, suédois, lituanien, allemand, espagnol, portugais, portugais brésilien, français, polonais, italien, turc, néerlandais et indonésien.
+**Version 1.32.4** · Panneau d'administration, boutique et documentation disponibles en 14 langues : anglais, ukrainien, norvégien, suédois, lituanien, allemand, espagnol, portugais, portugais brésilien, français, polonais, italien, turc, néerlandais et indonésien.
 
 ---
 
@@ -75,7 +75,7 @@ Une **boutique** publique orientée client est également incluse — distincte 
 
 ## Installation
 
-Un assistant d'installation web (`/install`) gère les vérifications des prérequis, la configuration de la base de données, les migrations, un peuplement optionnel de données de démonstration, le premier compte administrateur et les informations de l'entreprise — en 12 langues, et fonctionne que l'application soit à la racine du domaine ou dans n'importe quel sous-dossier, sur Apache, LiteSpeed ou nginx. Consultez `README.txt` et `public/documentation.html` pour les instructions d'installation complètes, ou exécutez-le manuellement :
+Un assistant d'installation web (`/install`) gère les vérifications des prérequis, la configuration de la base de données, les migrations, un peuplement optionnel de données de démonstration, le premier compte administrateur et les informations de l'entreprise — en 14 langues, et fonctionne que l'application soit à la racine du domaine ou dans n'importe quel sous-dossier, sur Apache, LiteSpeed ou nginx. Consultez `README.txt` et `public/documentation.html` pour les instructions d'installation complètes, ou exécutez-le manuellement :
 
 ```bash
 composer install --no-dev --optimize-autoloader

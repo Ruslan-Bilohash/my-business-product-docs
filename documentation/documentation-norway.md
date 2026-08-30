@@ -4,7 +4,7 @@
 
 Et selvhostet Laravel 13 + Filament 3.3-adminpanel for produktkataloger, lager på tvers av flere lagre, fakturering med ekte fungerende betalingsløsninger, og markedsførings-/markedsplasstilkoblinger for Google, Meta, Amazon, eBay og mer. Ett kjøp, installer det på din egen server, eie det for alltid — ingenting om katalogen, kundene eller API-nøklene dine går noensinne gjennom en tredjepartsserver.
 
-**Versjon 1.32.1** · Admin-panel, nettbutikk og dokumentasjon tilgjengelig på 14 språk: engelsk, ukrainsk, norsk, svensk, litauisk, tysk, spansk, portugisisk, brasiliansk portugisisk, fransk, polsk, italiensk, tyrkisk, nederlandsk og indonesisk.
+**Versjon 1.32.4** · Admin-panel, nettbutikk og dokumentasjon tilgjengelig på 14 språk: engelsk, ukrainsk, norsk, svensk, litauisk, tysk, spansk, portugisisk, brasiliansk portugisisk, fransk, polsk, italiensk, tyrkisk, nederlandsk og indonesisk.
 
 ---
 
@@ -75,7 +75,7 @@ En offentlig, kundevendt **nettbutikk** følger også med i esken — separat fr
 
 ## Installasjon
 
-En nettbasert installasjonsveiviser (`/install`) håndterer kravsjekker, databaseoppsett, migreringer, en valgfri eksempeldata-seed, den første admin-kontoen og firmaopplysninger — på 12 språk, og fungerer enten appen ligger i domenets rot eller i en hvilken som helst undermappe, på Apache, LiteSpeed eller nginx. Se `README.txt` og `public/documentation.html` for fullstendige oppsettinstruksjoner, eller kjør det manuelt:
+En nettbasert installasjonsveiviser (`/install`) håndterer kravsjekker, databaseoppsett, migreringer, en valgfri eksempeldata-seed, den første admin-kontoen og firmaopplysninger — på 14 språk, og fungerer enten appen ligger i domenets rot eller i en hvilken som helst undermappe, på Apache, LiteSpeed eller nginx. Se `README.txt` og `public/documentation.html` for fullstendige oppsettinstruksjoner, eller kjør det manuelt:
 
 ```bash
 composer install --no-dev --optimize-autoloader
