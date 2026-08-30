@@ -28,6 +28,18 @@ Une **boutique** publique orientée client est également incluse — distincte 
 
 ---
 
+## Design & UX
+
+**Panneau d'administration** — Construit sur Filament 3.3 avec une palette de couleurs personnalisée (bleu `#5385C2` en primaire, plus des couleurs sémantiques pour danger/succès/avertissement/info) et la police Inter. Page de connexion animée en écran divisé, tableau de bord en direct avec un graphique de revenus sur 14 jours et une checklist de démarrage, prise en charge des thèmes clair/sombre, et navigation basée sur les rôles — chacun des six rôles intégrés ne voit que les modules pour lesquels il a réellement la permission, pas de simples liens grisés inutilisables.
+
+**Boutique publique** — L'identité du thème par défaut est celle d'un « manifeste de transport » — entrepôts, bordereaux d'expédition, niveaux de stock — plutôt qu'une boutique générique de gabarit : un fond papier chaud, un texte noir encre et une couleur d'accent rouille tampon, associés à Big Shoulders Display (titres), Work Sans (texte courant) et JetBrains Mono (prix, étiquettes, données) via Bunny Fonts — sans Google Fonts, sans tracking. Une encoche signature en forme de découpe (un angle en `clip-path`) se répète sur les pastilles de prix, les tampons de statut et la marque de l'en-tête/pied de page, reliant chaque page entre elles. Un second thème, plus minimaliste, est fourni pour les acheteurs qui préfèrent un rendu plus sobre.
+
+**Page d'accueil marketing** — Une palette turquoise/bleu cohérente avec le même duo Inter + JetBrains Mono, et un motif de tampon « MANIFEST · MBP-0001 » qui fait écho à l'identité de la boutique elle-même, pour que le site marketing et le produit qu'il vend se ressentent comme une seule chose, pas deux gabarits sans rapport.
+
+**Aucune étape de build, nulle part** — Chaque écran (panneau d'administration, boutique, pages marketing) est livré avec son CSS et son JavaScript déjà en place. Rien à compiler, aucune dépendance Node/npm, aucun framework CDN à attendre — on décompresse, et ça fonctionne.
+
+---
+
 ## Captures d'écran
 
 ### Tableau de bord

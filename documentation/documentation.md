@@ -30,6 +30,18 @@ A public, customer-facing **storefront** ships in the box too — separate from 
 
 ---
 
+## Design & UX
+
+**Admin panel** — Built on Filament 3.3 with a custom color palette (blue `#5385C2` primary, plus semantic colors for danger/success/warning/info) and the Inter typeface. An animated split-screen sign-in page, a live dashboard with a 14-day revenue chart and a business-start checklist, light/dark theme support, and role-based navigation — each of the six built-in roles only sees the modules it actually has permission for, not just greyed-out links it can't use.
+
+**Public storefront** — The default theme's identity is a "trade manifest" look, grounded in the product's own domain (warehouses, waybills, stock counts) rather than a generic template shop: a warm paper background, ink-black text and a rust stamp accent color, paired with Big Shoulders Display (headlines), Work Sans (body text) and JetBrains Mono (prices, labels, data) via Bunny Fonts — no Google Fonts, no tracking. A signature die-cut price-tag notch (a `clip-path` corner cut) repeats across price pills, status stamps and the header/footer brand mark, tying every page together. A second, more minimal theme ships alongside it for buyers who want a plainer look.
+
+**Marketing landing page** — A cohesive teal/blue palette with the same Inter + JetBrains Mono pairing, and a "MANIFEST · MBP-0001" stamp motif that echoes the storefront's own branding, so the marketing site and the product it's selling feel like one thing, not two unrelated templates.
+
+**No build step, anywhere** — Every screen (admin panel, storefront, marketing pages) ships with its CSS and JavaScript already in place. There's nothing to compile, no Node/npm dependency, and no CDN framework to wait on — unzip and it works.
+
+---
+
 ## Screenshots
 
 ### Dashboard

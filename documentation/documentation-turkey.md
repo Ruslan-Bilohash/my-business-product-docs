@@ -28,6 +28,18 @@ Genel, müşteriye yönelik bir **vitrin** de kutunun içinde gelir — yönetim
 
 ---
 
+## Tasarım ve UX
+
+**Yönetim paneli** — Filament 3.3 üzerine, özel bir renk paletiyle (birincil renk mavi `#5385C2`, artı tehlike/başarı/uyarı/bilgi için anlamsal renkler) ve Inter yazı tipiyle inşa edildi. Animasyonlu, ekranı ikiye bölen giriş sayfası, 14 günlük gelir grafiği ve işletme başlangıç kontrol listesi içeren canlı bir kontrol paneli, açık/koyu tema desteği ve role dayalı gezinme — altı yerleşik rolün her biri yalnızca gerçekten izni olan modülleri görür, kullanılamayan gri bağlantıları değil.
+
+**Herkese açık vitrin** — Varsayılan temanın kimliği, tipik bir şablon mağaza yerine «taşıma manifestosu» görünümüdür — depolar, irsaliyeler, stok seviyeleri: sıcak kağıt arka planı, mürekkep siyahı metin ve pas rengi damga vurgusu, Bunny Fonts üzerinden Big Shoulders Display (başlıklar), Work Sans (gövde metni) ve JetBrains Mono (fiyatlar, etiketler, veriler) ile eşleştirilmiştir — Google Fonts yok, izleme yok. Fiyat üzerindeki imza niteliğindeki kesik köşe çentiği (bir `clip-path` köşe kesimi), fiyat etiketlerinde, durum damgalarında ve üstbilgi/altbilgi marka işaretinde tekrarlanarak her sayfayı birbirine bağlar. Daha sade bir görünüm isteyen alıcılar için ikinci, daha minimal bir tema da birlikte gelir.
+
+**Pazarlama açılış sayfası** — Aynı Inter + JetBrains Mono eşleşmesiyle tutarlı bir turkuaz/mavi palet ve vitrinin kendi kimliğini yansıtan bir «MANIFEST · MBP-0001» damga motifi — böylece pazarlama sitesi ile sattığı ürün, birbiriyle ilgisiz iki şablon değil, tek bir bütün gibi hissettirir.
+
+**Hiçbir yerde derleme adımı yok** — Her ekran (yönetim paneli, vitrin, pazarlama sayfaları), CSS ve JavaScript'i zaten hazır şekilde gelir. Derlenecek hiçbir şey, Node/npm bağımlılığı veya beklenecek bir CDN çerçevesi yoktur — açarsınız ve çalışır.
+
+---
+
 ## Ekran görüntüleri
 
 ### Kontrol paneli

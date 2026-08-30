@@ -28,6 +28,18 @@ W zestawie znajduje się także publiczna **witryna** skierowana do klientów �
 
 ---
 
+## Design i UX
+
+**Panel administracyjny** — Zbudowany na Filament 3.3 z niestandardową paletą kolorów (niebieski `#5385C2` jako główny, plus kolory semantyczne dla błędu/sukcesu/ostrzeżenia/informacji) i krojem Inter. Animowany ekran logowania podzielony na pół, żywy pulpit z wykresem przychodów z 14 dni i listą kontrolną startu biznesu, obsługa jasnego/ciemnego motywu oraz nawigacja oparta na rolach — każda z sześciu wbudowanych ról widzi tylko moduły, do których faktycznie ma uprawnienia, a nie wyszarzone, bezużyteczne linki.
+
+**Publiczna witryna** — Tożsamość domyślnego motywu to wygląd „manifestu transportowego" — magazyny, listy przewozowe, stany magazynowe — zamiast typowego szablonowego sklepu: ciepłe papierowe tło, atramentowo czarny tekst i rdzawy akcent pieczątki, w połączeniu z Big Shoulders Display (nagłówki), Work Sans (tekst główny) i JetBrains Mono (ceny, etykiety, dane) przez Bunny Fonts — bez Google Fonts, bez śledzenia. Charakterystyczne wycięcie w stylu sztancowania przy cenie (narożne cięcie `clip-path`) powtarza się na pigułkach cenowych, pieczątkach statusu oraz znaku marki w nagłówku/stopce, łącząc wszystkie strony. Drugi, bardziej minimalistyczny motyw jest dołączony dla kupujących, którzy wolą prostszy wygląd.
+
+**Marketingowa strona docelowa** — Spójna paleta turkusowo-niebieska z tym samym zestawieniem Inter + JetBrains Mono oraz motyw pieczątki „MANIFEST · MBP-0001", nawiązujący do tożsamości samej witryny, dzięki czemu strona marketingowa i sprzedawany przez nią produkt sprawiają wrażenie jednej całości, a nie dwóch niepowiązanych szablonów.
+
+**Żadnego kroku budowania, nigdzie** — Każdy ekran (panel administracyjny, witryna, strony marketingowe) jest dostarczany z gotowym już CSS i JavaScript. Nie ma nic do skompilowania, żadnej zależności od Node/npm i żadnego frameworka CDN, na który trzeba czekać — rozpakowujesz i działa.
+
+---
+
 ## Zrzuty ekranu
 
 ### Pulpit

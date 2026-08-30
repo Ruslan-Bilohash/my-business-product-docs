@@ -28,6 +28,18 @@ Uma **loja** pública voltada para o cliente também está incluída — separad
 
 ---
 
+## Design e UX
+
+**Painel de administração** — Construído sobre o Filament 3.3 com uma paleta de cores personalizada (azul `#5385C2` como primária, mais cores semânticas para perigo/sucesso/aviso/informação) e o tipo de letra Inter. Página de início de sessão animada em ecrã dividido, um painel ao vivo com um gráfico de receita de 14 dias e uma checklist de arranque do negócio, suporte para tema claro/escuro, e navegação baseada em funções — cada uma das seis funções incluídas só vê os módulos para os quais tem, de facto, permissão, e não meras ligações acinzentadas e inutilizáveis.
+
+**Loja pública** — A identidade do tema predefinido é um aspeto de «manifesto de transporte» — armazéns, guias de remessa, níveis de stock — em vez de uma loja genérica de modelo: um fundo em papel quente, texto preto tinta e um acento cor de ferrugem de carimbo, combinados com Big Shoulders Display (títulos), Work Sans (texto corrido) e JetBrains Mono (preços, etiquetas, dados) via Bunny Fonts — sem Google Fonts, sem rastreio. Um entalhe distintivo tipo cunho no preço (um corte de canto `clip-path`) repete-se nas etiquetas de preço, carimbos de estado e na marca do cabeçalho/rodapé, ligando todas as páginas entre si. Um segundo tema, mais minimalista, é incluído para compradores que preferem um aspeto mais simples.
+
+**Página de destino de marketing** — Uma paleta turquesa/azul coerente com o mesmo emparelhamento Inter + JetBrains Mono, e um motivo de carimbo «MANIFEST · MBP-0001» que ecoa a própria identidade da loja, para que o site de marketing e o produto que vende pareçam uma única coisa, não dois modelos sem relação.
+
+**Nenhum passo de build, em lado nenhum** — Cada ecrã (painel de administração, loja, páginas de marketing) é entregue com o CSS e o JavaScript já prontos. Não há nada para compilar, nenhuma dependência de Node/npm e nenhuma framework de CDN para esperar — descompacta-se e funciona.
+
+---
+
 ## Capturas de ecrã
 
 ### Painel principal

@@ -28,6 +28,18 @@ Eine öffentliche, kundenorientierte **Storefront** ist ebenfalls im Lieferumfan
 
 ---
 
+## Design & UX
+
+**Admin-Panel** — Aufgebaut auf Filament 3.3 mit einer individuellen Farbpalette (Blau `#5385C2` als Primärfarbe, plus semantische Farben für Fehler/Erfolg/Warnung/Info) und der Schriftart Inter. Animierte Split-Screen-Anmeldeseite, ein Live-Dashboard mit 14-Tage-Umsatzdiagramm und einer Business-Start-Checkliste, Unterstützung für helles/dunkles Design sowie rollenbasierte Navigation — jede der sechs integrierten Rollen sieht nur die Module, für die sie tatsächlich berechtigt ist, keine ausgegrauten, unbenutzbaren Links.
+
+**Öffentliche Storefront** — Das Standard-Theme holt seine Identität aus einem „Frachtmanifest"-Look — Lagerhäuser, Frachtbriefe, Bestandszahlen — statt aus einem austauschbaren Vorlagen-Shop: ein warmer Papierhintergrund, tintenschwarzer Text und ein rostfarbener Stempel-Akzent, kombiniert mit Big Shoulders Display (Überschriften), Work Sans (Fließtext) und JetBrains Mono (Preise, Labels, Daten) über Bunny Fonts — ohne Google Fonts, ohne Tracking. Eine charakteristische, wie ausgestanzt wirkende Preis-Einkerbung (ein `clip-path`-Eckenschnitt) wiederholt sich auf Preis-Pills, Status-Stempeln und der Marke in Header/Footer und verbindet so jede Seite miteinander. Ein zweites, schlichteres Theme liegt für Käufer bei, die einen einfacheren Look bevorzugen.
+
+**Marketing-Landingpage** — Eine stimmige Türkis-/Blau-Palette mit derselben Inter + JetBrains-Mono-Kombination und einem „MANIFEST · MBP-0001"-Stempelmotiv, das die eigene Storefront-Optik aufgreift, sodass sich Marketingseite und das verkaufte Produkt wie ein einziges Ganzes anfühlen, nicht wie zwei unabhängige Vorlagen.
+
+**Nirgends ein Build-Schritt** — Jeder Bildschirm (Admin-Panel, Storefront, Marketing-Seiten) wird mit bereits fertigem CSS und JavaScript ausgeliefert. Es gibt nichts zu kompilieren, keine Node/npm-Abhängigkeit und kein CDN-Framework, auf das gewartet werden muss — entpacken, und es funktioniert.
+
+---
+
 ## Screenshots
 
 ### Dashboard

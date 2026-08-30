@@ -28,6 +28,18 @@ En offentlig, kundvänd **nätbutik** medföljer också — separat från adminp
 
 ---
 
+## Design och UX
+
+**Adminpanel** — Byggd på Filament 3.3 med en anpassad färgpalett (blå `#5385C2` som primärfärg, plus semantiska färger för fara/framgång/varning/info) och typsnittet Inter. Animerad delad-skärm-inloggningssida, en live-instrumentpanel med ett 14-dagars intäktsdiagram och en checklista för verksamhetsstart, stöd för ljust/mörkt tema, och rollbaserad navigering — var och en av de sex inbyggda rollerna ser bara de moduler den faktiskt har behörighet till, inte bara gråmarkerade, oanvändbara länkar.
+
+**Publik nätbutik** — Standardtemats identitet är ett «fraktmanifest»-utseende — lager, fraktsedlar, lagernivåer — i stället för en generisk mallbutik: en varm pappersbakgrund, bläcksvart text och en rostfärgad stämpelaccent, kombinerat med Big Shoulders Display (rubriker), Work Sans (brödtext) och JetBrains Mono (priser, etiketter, data) via Bunny Fonts — inga Google Fonts, ingen spårning. Ett signaturhack i utstansad stil vid priset (ett hörnklipp med `clip-path`) återkommer på prisetiketter, statusstämplar och märket i header/footer, och binder samman varje sida. Ett andra, mer minimalistiskt tema medföljer för köpare som föredrar ett enklare utseende.
+
+**Marknadsförings-landningssida** — En sammanhållen turkos/blå palett med samma Inter + JetBrains Mono-kombination, och ett «MANIFEST · MBP-0001»-stämpelmotiv som återspeglar nätbutikens egen identitet, så att marknadsföringssajten och produkten den säljer känns som en enda sak, inte två orelaterade mallar.
+
+**Inget byggsteg, någonstans** — Varje skärm (adminpanel, nätbutik, marknadsföringssidor) levereras med CSS och JavaScript redan på plats. Det finns inget att kompilera, inget Node/npm-beroende och inget CDN-ramverk att vänta på — packa upp, så fungerar det.
+
+---
+
 ## Skärmbilder
 
 ### Instrumentpanel

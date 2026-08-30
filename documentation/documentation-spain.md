@@ -28,6 +28,18 @@ También incluye una **tienda** pública orientada al cliente — separada del p
 
 ---
 
+## Diseño y UX
+
+**Panel de administración** — Construido sobre Filament 3.3 con una paleta de colores personalizada (azul `#5385C2` como primario, más colores semánticos para peligro/éxito/aviso/información) y la tipografía Inter. Página de inicio de sesión animada en pantalla dividida, un panel en vivo con un gráfico de ingresos de 14 días y una lista de verificación de arranque del negocio, soporte de tema claro/oscuro, y navegación basada en roles — cada uno de los seis roles integrados solo ve los módulos para los que realmente tiene permiso, no simples enlaces en gris inutilizables.
+
+**Tienda pública** — La identidad del tema predeterminado es un aspecto de «manifiesto de transporte» — almacenes, albaranes, niveles de stock — en lugar de una tienda de plantilla genérica: un fondo de papel cálido, texto negro tinta y un color de acento óxido tipo sello, combinados con Big Shoulders Display (titulares), Work Sans (texto corrido) y JetBrains Mono (precios, etiquetas, datos) vía Bunny Fonts — sin Google Fonts, sin rastreo. Una muesca distintiva tipo troquel en el precio (un corte de esquina `clip-path`) se repite en las etiquetas de precio, los sellos de estado y la marca de la cabecera/pie, uniendo todas las páginas. Se incluye un segundo tema, más minimalista, para quienes prefieran un aspecto más sencillo.
+
+**Landing page de marketing** — Una paleta turquesa/azul coherente con el mismo tándem Inter + JetBrains Mono, y un motivo de sello «MANIFEST · MBP-0001» que hace eco de la propia identidad de la tienda, de modo que el sitio de marketing y el producto que vende se sientan como una sola cosa, no dos plantillas sin relación.
+
+**Ningún paso de compilación, en ningún sitio** — Cada pantalla (panel de administración, tienda, páginas de marketing) se entrega con su CSS y JavaScript ya listos. No hay nada que compilar, ninguna dependencia de Node/npm ni ningún framework de CDN que esperar — se descomprime y funciona.
+
+---
+
 ## Capturas de pantalla
 
 ### Panel principal

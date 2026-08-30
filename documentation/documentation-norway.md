@@ -28,6 +28,18 @@ En offentlig, kundevendt **nettbutikk** følger også med i esken — separat fr
 
 ---
 
+## Design og UX
+
+**Adminpanel** — Bygget på Filament 3.3 med en tilpasset fargepalett (blå `#5385C2` som primærfarge, pluss semantiske farger for fare/suksess/advarsel/info) og skrifttypen Inter. Animert delt-skjerm-innloggingsside, et live dashbord med et 14-dagers inntektsdiagram og en oppstartssjekkliste, støtte for lyst/mørkt tema, og rollebasert navigasjon — hver av de seks innebygde rollene ser bare modulene den faktisk har tillatelse til, ikke bare grå, ubrukelige lenker.
+
+**Offentlig nettbutikk** — Standardtemaets identitet er et «fraktmanifest»-utseende — lagre, fraktbrev, lagerbeholdning — i stedet for en generisk mal-butikk: en varm papirbakgrunn, blekksvart tekst og en rustfarget stempelaksent, kombinert med Big Shoulders Display (overskrifter), Work Sans (brødtekst) og JetBrains Mono (priser, etiketter, data) via Bunny Fonts — ingen Google Fonts, ingen sporing. Et signaturhakk i utstanset stil på prisen (et hjørnekutt med `clip-path`) gjentas på prislapper, statusstempler og merket i header/footer, og binder hver side sammen. Et andre, mer minimalistisk tema følger med for kjøpere som ønsker et enklere utseende.
+
+**Markedsførings-landingsside** — En helhetlig turkis/blå palett med samme Inter + JetBrains Mono-kombinasjon, og et «MANIFEST · MBP-0001»-stempelmotiv som gjenspeiler nettbutikkens egen merkevarebygging, slik at markedsføringssiden og produktet den selger føles som én ting, ikke to urelaterte maler.
+
+**Ingen byggetrinn, noe sted** — Hver skjerm (adminpanel, nettbutikk, markedsføringssider) leveres med CSS og JavaScript allerede på plass. Det er ingenting å kompilere, ingen Node/npm-avhengighet, og ingen CDN-rammeverk å vente på — pakk ut, og det fungerer.
+
+---
+
 ## Skjermbilder
 
 ### Dashbord

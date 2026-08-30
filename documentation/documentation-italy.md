@@ -28,6 +28,18 @@ Un pannello di amministrazione autogestito Laravel 13 + Filament 3.3 per catalog
 
 ---
 
+## Design e UX
+
+**Pannello di amministrazione** — Costruito su Filament 3.3 con una palette di colori personalizzata (blu `#5385C2` come primario, più colori semantici per pericolo/successo/avviso/info) e il font Inter. Pagina di accesso animata a schermo diviso, una dashboard dal vivo con un grafico dei ricavi a 14 giorni e una checklist di avvio attività, supporto tema chiaro/scuro e navigazione basata sui ruoli — ciascuno dei sei ruoli integrati vede solo i moduli per cui ha effettivamente il permesso, non semplici link disattivati e inutilizzabili.
+
+**Storefront pubblico** — L'identità del tema predefinito è quella di un «manifesto di trasporto» — magazzini, bolle di consegna, livelli di giacenza — invece del solito shop da template generico: uno sfondo carta calda, testo nero inchiostro e un colore d'accento ruggine da timbro, abbinati a Big Shoulders Display (titoli), Work Sans (testo) e JetBrains Mono (prezzi, etichette, dati) via Bunny Fonts — niente Google Fonts, niente tracciamento. Una tacca distintiva a forma di fustella sul prezzo (un taglio d'angolo `clip-path`) si ripete su pillole di prezzo, timbri di stato e il marchio in header/footer, collegando ogni pagina. Un secondo tema, più minimale, è incluso per chi preferisce un look più sobrio.
+
+**Landing page di marketing** — Una palette turchese/blu coerente con lo stesso abbinamento Inter + JetBrains Mono, e un motivo a timbro «MANIFEST · MBP-0001» che richiama l'identità dello storefront stesso, così il sito marketing e il prodotto che vende sembrano un'unica cosa, non due template scollegati.
+
+**Nessun passaggio di build, da nessuna parte** — Ogni schermata (pannello di amministrazione, storefront, pagine marketing) viene fornita con CSS e JavaScript già pronti. Non c'è nulla da compilare, nessuna dipendenza Node/npm e nessun framework CDN da attendere — si decomprime e funziona.
+
+---
+
 ## Screenshot
 
 ### Dashboard

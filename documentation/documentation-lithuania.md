@@ -28,6 +28,18 @@ Savarankiškai talpinamas Laravel 13 + Filament 3.3 administravimo skydelis prod
 
 ---
 
+## Dizainas ir UX
+
+**Administravimo skydelis** — Sukurtas ant Filament 3.3 su individualia spalvų palete (mėlyna `#5385C2` kaip pagrindinė, plius semantinės spalvos pavojui/sėkmei/įspėjimui/informacijai) ir Inter šriftu. Animuotas, per pusę ekrano padalytas prisijungimo puslapis, gyvas skydelis su 14 dienų pajamų grafiku ir verslo starto kontroliniu sąrašu, šviesios/tamsios temos palaikymas bei navigacija pagal vaidmenis — kiekvienas iš šešių įmontuotų vaidmenų mato tik tuos modulius, kuriems iš tiesų turi leidimą, o ne pilkas, nenaudojamas nuorodas.
+
+**Vieša vitrina** — Numatytosios temos identitetas — „krovinio manifesto“ išvaizda: sandėliai, važtaraščiai, likučių kiekiai — vietoj tipinės šabloninės parduotuvės: šiltas popieriaus fonas, rašalo juodumo tekstas ir rūdžių spalvos antspaudo akcentas, derinami su Big Shoulders Display (antraštėms), Work Sans (pagrindiniam tekstui) ir JetBrains Mono (kainoms, etiketėms, duomenims) per Bunny Fonts — jokių Google Fonts, jokio sekimo. Būdinga „iškirpta“ kainos kerpė (kampo `clip-path` pjūvis) kartojasi kainos ženkliukuose, būsenos antspauduose bei antraštės/poraštės prekės ženkle — tai vienija visus puslapius. Kartu pridedama antra, minimalistiškesnė tema tiems, kas nori paprastesnės išvaizdos.
+
+**Rinkodaros pagrindinis puslapis** — Darni žydro/mėlyno atspalvio paletė su ta pačia Inter + JetBrains Mono šriftų pora ir „MANIFEST · MBP-0001“ antspaudo motyvas, atkartojantis pačios vitrinos identitetą, todėl rinkodaros svetainė ir parduodamas produktas atrodo kaip vientisas dalykas, o ne du nesusiję šablonai.
+
+**Jokio surinkimo (build) žingsnio niekur** — Kiekvienas ekranas (administravimo skydelis, vitrina, rinkodaros puslapiai) pristatomas su jau paruoštu CSS ir JavaScript. Nėra ko kompiliuoti, jokios Node/npm priklausomybės ir jokio CDN karkaso, kurio reikėtų laukti — išpakuojate, ir viskas veikia.
+
+---
+
 ## Ekrano nuotraukos
 
 ### Skydelis
